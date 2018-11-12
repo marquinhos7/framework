@@ -1,0 +1,18 @@
+source "https://rubygems.org"
+
+# Robots
+gem "savon", '2.0.2'
+gem "nokogiri"
+gem "rest-client", '2.0.2'
+
+
+# Test automation
+gem "cucumber", '2.4.0'
+gem "httparty"
+gem "watir", '6.8.4'
+gem "spreadsheet"
+gem "mysql2", '0.4.9'
+gem "magic_encoding"
+gem 'rspec'
+gem 'sinatra'
+#gem "TE3270"

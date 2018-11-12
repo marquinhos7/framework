@@ -1,0 +1,9 @@
+<mail>
+    <to-recipients></to-recipients>
+    <subject></subject>
+    <comment></comment>
+    <include-attributes>
+        <attribute name="history" value="false" />
+		<attribute name="attachments" value="false" />
+    </include-attributes>
+</mail>

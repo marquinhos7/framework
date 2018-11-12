@@ -1,0 +1,25 @@
+<Entity Type="run-step">
+	<Fields>
+		<Field Name="execution-date">
+			<Value></Value>
+		</Field>
+		<Field Name="description">
+			<Value></Value>
+		</Field>
+		<Field Name="name">
+			<Value></Value>
+		</Field>
+		<Field Name="test-id">
+			<Value></Value>
+		</Field>
+		<Field Name="status">
+			<Value></Value>
+		</Field>
+		<Field Name="parent-id">
+			<Value></Value>
+		</Field>
+		<Field Name="id">
+			<Value></Value>
+		</Field>
+	</Fields>
+</Entity>

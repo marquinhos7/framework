@@ -1,0 +1,14 @@
+PROXY:
+  Resource:
+    host: proxycenesp.resource.com.br
+    port: 3128 
+    user: re034846
+    pass: Res!jul
+
+MANTIS:
+  Rafael:
+    user: rafael.ponzio
+    pass: Vid@!Fis
+  Eduardo:
+    user:
+    pass:

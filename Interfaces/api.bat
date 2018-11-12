@@ -1,0 +1,9 @@
+rem [AUT] Consultar Dossiê Eletrônico
+c:
+
+call Conf.bat
+
+cd %ARQUIVO_PATH%
+cucumber --tag @CT.CONSULTAR.DOSSIE.ELETRONICO TEST_ENV=%TEST_ENV% EVIDENCIA_ALM=%EVIDENCIA_ALM% TESTSET_ALM=%TESTSET_ALM%
+
+pause

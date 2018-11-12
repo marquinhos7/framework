@@ -1,0 +1,406 @@
+{
+  "servico": [
+      { 
+      "id": 0,
+      "empresa": {
+        "id_empresa": 0,
+        "nome": "Omint"
+      },
+      "area": {
+        "id_area": 0,
+        "nome": "Departamento Pessoal"
+      },
+      "sistema": {
+        "id_sistema": 0,
+        "nome": "Controlador de Ponto"
+      },
+      "funcionalidade": {
+        "id_funcionalidade": 0,
+        "nome": "Controlador de Ponto",
+        "descricao": "marcar a hora que o funcionario bater o ponto e data que esta ação foi feita"
+      },
+      "cenarios": [
+        {
+          "id": 0,
+          "nome": "Testar navegador chrome",
+          "id_funcionalidade": 0,
+          "etapas": [
+            {
+              "id": 0,
+              "detalhe_step": 0,
+              "acao": 0,
+              "parametro": {
+                "nome": "navegador",
+                "valor": "chrome"
+              }
+            },
+            {
+              "id": 1,
+              "detalhe_step": 1,
+              "acao": 1,
+              "parametro": {
+                "url": "urlbar",
+                "valor": "url do site"
+              }
+            },
+            {
+              "id": 2,
+              "detalhe_step": 2,
+              "acao": 2,
+              "parametro": {
+                "nome": "login",
+                "valor": "login usuario"
+              }
+            },
+            {
+              "id": 3,
+              "detalhe_step": 3,
+              "acao": 3,
+              "parametro": {
+                "nome": "botao",
+                "valor": "bater ponto"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "nome": "Testar navegador internet explore",
+          "id_funcionalidade": 1,
+          "etapas": [
+            {
+              "id": 4,
+              "detalhe_step": 4,
+              "acao": 4,
+              "parametro": {
+                "nome": "navegador",
+                "valor": "internet explore"
+              }
+            },
+            {
+              "id": 5,
+              "detalhe_step": 5,
+              "acao": 5,
+              "parametro": {
+                "url": "urlbar",
+                "valor": "url do site"
+              }
+            },
+            {
+              "id": 6,
+              "detalhe_step": 6,
+              "acao": 6,
+              "parametro": {
+                "nome": "login",
+                "valor": "login"
+              }
+            },
+            {
+              "id": 7,
+              "detalhe_step": 7,
+              "acao": 7,
+              "parametro": {
+                "nome": "botao",
+                "valor": "bater ponto"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nome": "Testar navegador opera",
+          "id_funcionalidade": 2,
+          "etapas": [
+            {
+              "id": 8,
+              "detalhe_step": 8,
+              "acao": 8,
+              "parametro": {
+                "nome": "navegador",
+                "valor": "opera"
+              }
+            },
+            {
+              "id": 9,
+              "detalhe_step": 9,
+              "acao": 9,
+              "parametro": {
+                "url": "urlbar",
+                "valor": "url do site"
+              }
+            },
+            {
+              "id": 10,
+              "detalhe_step": 1,
+              "acao": 1,
+              "parametro": {
+                "nome": "login",
+                "valor": "login"
+              }
+            },
+            {
+              "id": 11,
+              "detalhe_step": 2,
+              "acao": 2,
+            "parametro": {
+                "nome": "botao",
+                "valor": "bater ponto"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nome": "Testar navegador mozilla",
+          "id_funcionalidade": 3,
+        "etapas": [
+            {
+              "id": 12,
+              "detalhe_step": 3,
+              "acao": 3,
+              "parametro": {
+                "nome": "navegador",
+                "valor": "mozilla"
+              }
+            },
+            {
+              "id": 13,
+              "detalhe_step": 1,
+              "acao": 1,
+              "parametro": {
+                "url": "urlbar",
+                "valor": "url do site"
+              }
+            },
+            {
+              "id": 14,
+              "detalhe_step": 2,
+              "acao": 2,
+              "parametro": {
+                "nome": "login",
+                "valor": "login"
+              }
+            },
+            {
+              "id": 15,
+              "detalhe_step": 3,
+              "acao": 3,
+              "parametro": {
+                "nome": "botao",
+                "valor": "bater ponto"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    { 
+      "id": 1,
+      "empresa": {
+        "id_empresa": 0,
+        "nome": "FIS"
+      },
+      "area": {
+        "id_area": 0,
+        "nome": "Desenvolvimento"
+      },
+      "sistema": {
+        "id_sistema": 0,
+        "nome": "FVS"
+      },
+      "funcionalidade": {
+        "id_funcionalidade": 0,
+        "nome": "Cadastro de empresas",
+        "descricao": "efetua o cadastro de empresas"
+      },
+      "cenarios": [
+        {
+          "id": 0,
+          "nome": "Testar cadastro",
+          "id_funcionalidade": 0,
+          "etapas": [
+            {
+              "id": 0,
+              "detalhe_step": 0,
+              "acao": 0,
+              "parametro": {
+                "nome": "cpf",
+                "valor": "198318931"
+              }
+            },
+            {
+              "id": 1,
+              "detalhe_step": 1,
+              "acao": 1,
+              "parametro": {
+                "url": "cnpj",
+                "valor": "180200730182"
+              }
+            },
+            {
+              "id": 2,
+              "detalhe_step": 2,
+              "acao": 2,
+              "parametro": {
+                "nome": "login",
+                "valor": "login usuario"
+              }
+            },
+            {
+              "id": 3,
+              "detalhe_step": 3,
+              "acao": 3,
+              "parametro": {
+                "nome": "botao",
+                "valor": "efetuar cadastro"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "nome": "Testar consulta de cadastro",
+          "id_funcionalidade": 1,
+          "etapas": [
+            {
+              "id": 4,
+              "detalhe_step": 4,
+              "acao": 4,
+              "parametro": {
+                "nome": "cpf",
+                "valor": "198318931"
+              }
+            },
+            {
+              "id": 5,
+              "detalhe_step": 5,
+              "acao": 5,
+              "parametro": {
+                "url": "cnpj",
+                "valor": "180200730182"
+              }
+            },
+            {
+              "id": 5,
+              "detalhe_step": 5,
+              "acao": 5,
+              "parametro": {
+                "nome": "login",
+                "valor": "login usuario"
+              }
+            },
+            {
+              "id": 6,
+              "detalhe_step": 6,
+              "acao": 6,
+              "parametro": {
+                "nome": "botao",
+                "valor": "efetuar cadastro"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nome": "Testar deletar cadastro",
+          "id_funcionalidade": 2,
+          "etapas": [
+            {
+              "id": 8,
+              "detalhe_step": 8,
+              "acao": 8,
+              "parametro": {
+                "nome": "navegador",
+                "valor": "opera"
+              }
+            },
+            {
+              "id": 9,
+              "detalhe_step": 9,
+              "acao": 9,
+              "parametro": {
+                "url": "urlbar",
+                "valor": "url do site"
+              }
+            },
+            {
+              "id": 10,
+              "detalhe_step": 1,
+              "acao": 1,
+              "parametro": {
+                "nome": "login",
+                "valor": "login"
+              }
+            },
+            {
+              "id": 11,
+              "detalhe_step": 2,
+              "acao": 2,
+            "parametro": {
+                "nome": "botao",
+                "valor": "bater ponto"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nome": "Testar inserir cadastro",
+          "id_funcionalidade": 3,
+        "etapas": [
+            {
+              "id": 12,
+              "detalhe_step": 3,
+              "acao": 3,
+              "parametro": {
+                "nome": "navegador",
+                "valor": "mozilla"
+              }
+            },
+            {
+              "id": 13,
+              "detalhe_step": 1,
+              "acao": 1,
+              "parametro": {
+                "url": "urlbar",
+                "valor": "url do site"
+              }
+            },
+            {
+              "id": 14,
+              "detalhe_step": 2,
+              "acao": 2,
+              "parametro": {
+                "nome": "login",
+                "valor": "login"
+              }
+            },
+            {
+              "id": 15,
+              "detalhe_step": 3,
+              "acao": 3,
+              "parametro": {
+                "nome": "botao",
+                "valor": "bater ponto"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "detalhes_step": [
+    {"id": 0, "nome": "clicar no botão"},
+    {"id": 1, "nome": "digitar no textbox"},
+    {"id": 2, "nome": "a tela for visualizada"}
+  ],
+
+  "acao": [
+    {"id": 0, "nome": "Quando"},
+    {"id": 1, "nome": "Então"},
+    {"id": 2, "nome": "Dado"},
+    {"id": 3, "nome": "E"}
+  ]
+}

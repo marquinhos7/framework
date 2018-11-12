@@ -1,0 +1,9 @@
+﻿
+chcp 65001
+
+SET TEST_ENV=dev
+SET EVIDENCIA_ALM=S
+SET TESTSET_ALM='AUT_Dossie_Eletronico'
+
+SET CONF_PATH=%cd%
+SET ARQUIVO_PATH="C:\Dados\Projetos\fis\PD\DOS\"
